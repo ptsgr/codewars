@@ -1,7 +1,6 @@
 package stringsmix
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -42,9 +41,6 @@ func (a resultArray) String() string {
 }
 
 func Mix(s1, s2 string) string {
-	fmt.Println(s1)
-	fmt.Println()
-	fmt.Println(s2)
 	resM := make(map[rune]int)
 	var res resultArray
 	m1 := accountStr(s1)
