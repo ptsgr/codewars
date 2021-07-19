@@ -3,7 +3,7 @@ package stringsmix_test
 import (
 	"testing"
 
-	. "github.com/ptsgr/codewars/pkg/StringsMix"
+	. "github.com/ptsgr/codewars/pkg/strings_mix"
 )
 
 type testData struct {
