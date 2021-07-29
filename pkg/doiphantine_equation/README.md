@@ -6,9 +6,9 @@ In mathematics, a [Diophantine equation](https://en.wikipedia.org/wiki/Diophanti
 
 In this kata we want to find all integers `x, y` `(x >= 0, y >= 0)` solutions of a diophantine equation of the form:
 
-![equation](http://www.sciweavers.org/upload/Tex2Img_1627568017/render.png)
+$x^2 - 4 * y^2 = n$
 
-(where the unknowns are `x` and `y`, and `n` is a given positive number) in decreasing order of the positive x~i~.
+(where the unknowns are `x` and `y`, and `n` is a given positive number) in decreasing order of the positive $x~i$.
 
 If there is no solution return `[]` or `"[]"` or `""`. (See "RUN SAMPLE TESTS" for examples of returns).
 
@@ -18,3 +18,7 @@ If there is no solution return `[]` or `"[]"` or `""`. (See "RUN SAMPLE TESTS" f
 solEquaStr(90005) --> "[[45003, 22501], [9003, 4499], [981, 467], [309, 37]]"
 solEquaStr(90002) --> "[]"
 ```
+
+## Hint
+
+$x^2-4*y^2=(x-2*y)*(x+2*y)$
