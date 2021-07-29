@@ -6,7 +6,7 @@ In mathematics, a [Diophantine equation](https://en.wikipedia.org/wiki/Diophanti
 
 In this kata we want to find all integers `x, y` `(x >= 0, y >= 0)` solutions of a diophantine equation of the form:
 
-$$x^2 - 4 * y^2 = n$$
+![equation](http://www.sciweavers.org/upload/Tex2Img_1627568017/render.png)
 
 (where the unknowns are `x` and `y`, and `n` is a given positive number) in decreasing order of the positive x~i~.
 
