@@ -6,9 +6,9 @@ In mathematics, a [Diophantine equation](https://en.wikipedia.org/wiki/Diophanti
 
 In this kata we want to find all integers `x, y` `(x >= 0, y >= 0)` solutions of a diophantine equation of the form:
 
-$x^2 - 4 * y^2 = n$
+x^2^ - 4 * y^2^ = n
 
-(where the unknowns are `x` and `y`, and `n` is a given positive number) in decreasing order of the positive $x~i$.
+(where the unknowns are `x` and `y`, and `n` is a given positive number) in decreasing order of the positive `x~i~`.
 
 If there is no solution return `[]` or `"[]"` or `""`. (See "RUN SAMPLE TESTS" for examples of returns).
 
