@@ -6,10 +6,9 @@ In mathematics, a [Diophantine equation](https://en.wikipedia.org/wiki/Diophanti
 
 In this kata we want to find all integers `x, y` `(x >= 0, y >= 0)` solutions of a diophantine equation of the form:
 
-x^2^ - 4 * y^2^ = n
+x<sup>2</sup>-4*y<sup>2</sup>=n
 
-(where the unknowns are `x` and `y`, and `n` is a given positive number) in decreasing order of the positive `x~i~`.
-
+(where the unknowns are `x` and `y`, and `n` is a given positive number) in decreasing order of the positive x<sub>i</sub>.
 If there is no solution return `[]` or `"[]"` or `""`. (See "RUN SAMPLE TESTS" for examples of returns).
 
 ## Examples
@@ -21,4 +20,4 @@ solEquaStr(90002) --> "[]"
 
 ## Hint
 
-$x^2-4*y^2=(x-2*y)*(x+2*y)$
+x<sup>2</sup>-4*y<sup>2</sup>=(x-2*y)*(x+2*y)
