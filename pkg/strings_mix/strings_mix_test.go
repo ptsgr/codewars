@@ -6,13 +6,13 @@ import (
 	. "github.com/ptsgr/codewars/pkg/strings_mix"
 )
 
-type testData struct {
+type testCase struct {
 	s1     string
 	s2     string
 	output string
 }
 
-var tests = []testData{
+var testCases = []testCase{
 	{"Are they here", "yes, they are here", "2:eeeee/2:yy/=:hh/=:rr"},
 	{"uuuuuu", "uuuuuu", "=:uuuuuu"},
 	{"looping is fun but dangerous", "less dangerous than coding",
@@ -25,7 +25,7 @@ var tests = []testData{
 }
 
 func TestMix(t *testing.T) {
-	for _, test := range tests {
+	for _, test := range testCases {
 		result := Mix(test.s1, test.s2)
 		if result != test.output {
 			t.Error(

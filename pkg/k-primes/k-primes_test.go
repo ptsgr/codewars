@@ -30,19 +30,19 @@ func TestPuzzle(t *testing.T) {
 
 }
 
-type countKprimesTest struct {
+type testCase struct {
 	k, start, nd int
 	result       []int
 }
 
-var countKprimesTests = []countKprimesTest{
+var testCases = []testCase{
 	{5, 1000, 1100, []int{1020, 1026, 1032, 1044, 1050, 1053, 1064, 1072, 1092, 1100}},
 	{5, 500, 600, []int{500, 520, 552, 567, 588, 592, 594}},
 	{12, 100000, 100100, nil},
 }
 
 func TestCountKprimes(t *testing.T) {
-	for _, test := range countKprimesTests {
+	for _, test := range testCases {
 		result := CountKprimes(test.k, test.start, test.nd)
 		if !reflect.DeepEqual(result, test.result) {
 			t.Error(

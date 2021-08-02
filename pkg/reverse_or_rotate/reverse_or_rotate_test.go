@@ -6,13 +6,13 @@ import (
 	. "github.com/ptsgr/codewars/pkg/reverse_or_rotate"
 )
 
-type testData struct {
+type testCase struct {
 	str    string
 	sz     int
 	output string
 }
 
-var tests = []testData{
+var testCases = []testCase{
 	{"1234", 0, ""},
 	{"", 0, ""},
 	{"1234", 5, ""},
@@ -20,7 +20,7 @@ var tests = []testData{
 }
 
 func TestRevrot(t *testing.T) {
-	for _, test := range tests {
+	for _, test := range testCases {
 		result := Revrot(test.str, test.sz)
 		if result != test.output {
 			t.Error(

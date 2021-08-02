@@ -7,12 +7,12 @@ import (
 	. "github.com/ptsgr/codewars/pkg/doiphantine_equation"
 )
 
-type countKprimesTest struct {
+type testCase struct {
 	n      int
 	result [][]int
 }
 
-var countKprimesTests = []countKprimesTest{
+var testCases = []testCase{
 	{5, [][]int{{3, 1}}},
 	{12, [][]int{{4, 1}}},
 	{13, [][]int{{7, 3}}},
@@ -22,7 +22,7 @@ var countKprimesTests = []countKprimesTest{
 }
 
 func TestSolequa(t *testing.T) {
-	for _, test := range countKprimesTests {
+	for _, test := range testCases {
 		result := Solequa(test.n)
 		if !reflect.DeepEqual(result, test.result) {
 			t.Error(
