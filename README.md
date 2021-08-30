@@ -27,6 +27,7 @@ ____
 | 6 | [Reverse or rotate?](https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991) | [solution](https://github.com/ptsgr/codewars/tree/main/pkg/reverse_or_rotate) |
 | 6 | [Steps in k-primes](https://www.codewars.com/kata/5a48948e145c46820b00002f) | [solution](https://github.com/ptsgr/codewars/tree/main/pkg/steps_in_k-primes) |
 | 6 | [IP Validation](https://www.codewars.com/kata/515decfd9dcfc23bb6000006) | [solution](https://github.com/ptsgr/codewars/tree/main/pkg/ip_validation) |
+| 6 | [Buying a car](https://www.codewars.com/kata/554a44516729e4d80b000012) | [solution](https://github.com/ptsgr/codewars/tree/main/pkg/buying_a_car) |
 
 ## Bash
 
