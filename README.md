@@ -20,6 +20,7 @@ ____
 | --- | --- | --- |
 | 3 | [Rail Fence Cipher: Encoding and Decoding](https://www.codewars.com/kata/58c5577d61aefcf3ff000081) | [solution](https://github.com/ptsgr/codewars/tree/main/pkg/rail_fence_cipher) |
 | 4 | [String Mix](https://www.codewars.com/kata/5629db57620258aa9d000014) | [solution](https://github.com/ptsgr/codewars/tree/main/pkg/strings_mix) |
+| 5 | [Is my friend cheating?](https://www.codewars.com/kata/5547cc7dcad755e480000004) | [solution](https://github.com/ptsgr/codewars/tree/main/pkg/is_my_friend_cheating) |
 | 5 | [Weight for weight](https://www.codewars.com/kata/55c6126177c9441a570000cc) | [solution](https://github.com/ptsgr/codewars/tree/main/pkg/weight_for_weight) |
 | 5 | [Diophantine Equation](https://www.codewars.com/kata/554f76dca89983cc400000bb) | [solution](https://github.com/ptsgr/codewars/tree/main/pkg/doiphantine_equation) |
 | 5 | [k-Primes](https://www.codewars.com/kata/5726f813c8dcebf5ed000a6b) | [solution](https://github.com/ptsgr/codewars/tree/main/pkg/k-primes) |
